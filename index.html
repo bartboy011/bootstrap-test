@@ -1,0 +1,606 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap Test</title>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="javascripts/bootstrap.min.js"></script>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Brand</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Link</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<div class="container-fluid main-container">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Brand</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">Link</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-form navbar-left">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Link</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+			<div class="row row-padded">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div class="jumbotron">
+						<h1>Welcome to the Bootstrap Test Template!</h1>
+						<p>(This is your jumbotron demo, by the by)</p>
+					</div>
+				</div>
+			</div>
+			<ol class="breadcrumb">
+				<li><a href="#">Don't</a></li>
+				<li><a href="#">Get</a></li>
+				<li class="active">Lost</li>
+			</ol>
+			<div class="page-header">
+				<h1>Begin here <small>(A page-header)</small></h1>
+			</div>
+			<div class='row row-padded'>
+				<div class="col-sm-4">
+					<h1>This is an h1</h1>
+					<h2>This is an h2</h2>
+					<h3>This is an h3</h3>
+					<h4>This is an h4</h4>
+					<h5>This is an h5</h5>
+					<h6>This is an h6</h6>
+					<p>Senserit ab ut despicationes expetendis aliqua cohaerescant ipsum aute e ne de 
+						irure minim tamen ut ne a velit fidelissimae quid se philosophari eruditionem 
+						singulis distinguantur praetermissum aliqua ut philosophari aute iudicem ab enim 
+						reprehenderit appellat cupidatat in enim comprehenderit</p>
+					<hr>
+					<h3>A form!</h3>
+					<form>
+						<div class="form-group">
+							<label class="control-label">Input Name</label>
+							<input class="form-control">
+						</div>
+						<div class="form-group has-success has-feedback">
+							<label class="control-label">Input Name</label>
+							<input class="form-control">
+							<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+						</div>
+						<div class="form-group has-warning has-feedback">
+							<label class="control-label">Input Name</label>
+							<input class="form-control">
+							<span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+						</div>
+						<div class="form-group has-error has-feedback">
+							<label class="control-label">Input Name</label>
+							<input class="form-control">
+							<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+						</div>
+						<div class="col-sm-3">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> Check me out
+								</label>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="has-success">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Check me out
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="has-warning">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Check me out
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="has-error">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Check me out
+									</label>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-4">
+					<h3>A table!</h3>
+					<table class="table">
+						<thead>
+							<th>Heading</th>
+							<th>Heading</th>
+							<th>Heading</th>
+							<th>Heading</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+						</tbody>
+					</table>
+					<h4>with stripes...</h4>
+					<table class="table table-striped">
+						<thead>
+							<th>Heading</th>
+							<th>Heading</th>
+							<th>Heading</th>
+							<th>Heading</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+						</tbody>
+					</table>
+					<h4>or hover...</h4>
+					<table class="table table-hover">
+						<thead>
+							<th>Heading</th>
+							<th>Heading</th>
+							<th>Heading</th>
+							<th>Heading</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+							<tr>
+								<td>Table data</td>
+								<td>Maybe a name column</td>
+								<td>Or some 456789 numbers</td>
+								<td>final column</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-sm-4">
+					<h3>Buttons:</h3>
+					<div class="row row-padded">
+						<button class='btn btn-primary btn-lg'>primary</button>
+						<button class='btn btn-primary'>primary</button>
+						<button class='btn btn-primary btn-sm'>primary</button>
+						<button class='btn btn-primary btn-xs'>primary</button>
+					</div>
+					<div class="row row-padded">
+						<button class='btn btn-success btn-lg'>success</button>
+						<button class='btn btn-success'>success</button>
+						<button class='btn btn-success btn-sm'>success</button>
+						<button class='btn btn-success btn-xs'>success</button>
+					</div>
+					<div class="row row-padded">
+						<button class='btn btn-info btn-lg'>info</button>
+						<button class='btn btn-info'>info</button>
+						<button class='btn btn-info btn-sm'>info</button>
+						<button class='btn btn-info btn-xs'>info</button>
+					</div>
+					<div class="row row-padded">
+						<button class='btn btn-warning btn-lg'>warning</button>
+						<button class='btn btn-warning'>warning</button>
+						<button class='btn btn-warning btn-sm'>warning</button>
+						<button class='btn btn-warning btn-xs'>warning</button>
+					</div>
+					<div class="row row-padded">
+						<button class='btn btn-danger btn-lg'>danger</button>
+						<button class='btn btn-danger'>danger</button>
+						<button class='btn btn-danger btn-sm'>danger</button>
+						<button class='btn btn-danger btn-xs'>danger</button>
+					</div>
+					<hr>
+					<h3>Alerts:</h3>
+					<div class="alert alert-success">This alert is success!</div>
+					<div class="alert alert-info">This alert is info!</div>
+					<div class="alert alert-warning">This alert is warning!</div>
+					<div class="alert alert-danger">This alert is danger!</div>
+				</div>
+			</div>
+			<div class="row row-padded">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h4>Man, what a nice panel.</h4>
+						</div>
+						<div class="panel-body">
+							<h4>Progress bars:</h4>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+									60%
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+									45%
+									<span class="sr-only">45% Complete</span>
+								</div>
+							</div>
+							<p>Fabulas minim eiusmod, expetendis multos si tempor praesentibus. Ab aliqua 
+								sempiternum. Singulis et quid voluptate. De culpa labore legam voluptate, multos 
+								quibusdam eruditionem, fabulas sint nam quibusdam distinguantur se consequat 
+								magna admodum ingeniis. Ea ne cohaerescant. Aliqua transferrem probant quem 
+								iudicem. Deserunt esse iis possumus cohaerescant, expetendis velit labore te 
+								magna. Elit offendit eiusmod, sed labore dolor quorum singulis, varias mentitum 
+								ex despicationes ab se duis laboris concursionibus de quo ab veniam litteris, 
+								sint an do enim consequat sed commodo aut fore, minim arbitror singulis.
+							</p>
+							<p>Cernantur minim noster incididunt elit, fabulas labore in iudicem tractavissent 
+								et labore sed pariatur do aliquip quo sint incididunt. In velit varias ut 
+								arbitror, aliqua doctrina nescius. Ingeniis velit illum appellat quid, noster 
+								arbitror ut officia nam illum ex do quis offendit quo de velit culpa dolore 
+								fabulas, ea de nisi offendit, tempor esse litteris litteris, incurreret legam 
+								consequat tempor, ab sunt ullamco. Ubi do labore varias minim ubi iudicem illum 
+								sunt commodo quem. Se aute non legam, fabulas quis aute voluptate malis, dolore 
+								mandaremus arbitror o senserit voluptatibus ex nescius. Irure offendit te 
+								quibusdam, an cillum cohaerescant sed culpa in et velit proident eu fugiat 
+								quamquam philosophari. Eram ab ita veniam deserunt id occaecat fugiat magna 
+								incididunt aute. Ipsum ab commodo, quae te laborum a esse.</p>
+						</div>
+						<div class="panel-footer">
+							This panel's draggin' a waggon.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<p>List group:</p>
+					<div class="list-group">
+						<a class="list-group-item active">
+							<span class="badge">14</span>
+							Cras justo odio
+						</a>
+						<a class="list-group-item">
+							<span class="badge">4</span>
+							Quibusdam praesentibus nisi litteris
+						</a>
+						<a class="list-group-item">
+							<span class="badge">2</span>
+							Proident multos
+						</a>
+						<a class="list-group-item">
+							Occaecat consectetur
+						</a>
+					</div>
+					<p>Button group:</p>
+					<div class="btn-group">
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalLarge">
+							Modal large!
+						</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModalRegular">
+							Modal regular!
+						</button>
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModalSmall">
+							Modal small!
+						</button>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="well">I'm a regular well!<br>Ne consectetur voluptate dolore probant praetermissum culpa quid fore 
+						familiaritatem relinqueret consequat sempiternum multos id admodum incididunt 
+						quid occaecat et.</div>
+					<div class="well well-lg">I'm a large well!<br>Sempiternum familiaritatem aute quae duis lorem te doctrina transferrem sunt 
+						mentitum o dolore quis sempiternum sunt litteris quorum eu tractavissent.</div>
+					<div class="well well-sm">I'm a small well!<br>Ea aut se labore ita magna se cillum an in officia quis esse incididunt laboris 
+						cupidatat elit doctrina transferrem malis.</div>
+				</div>
+			</div>
+			<div class="row row-padded">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div>
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Tootips!</a></li>
+							<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Popovers!</a></li>
+						</ul>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="home">
+								<div class="row row-padded">
+									<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+
+									<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+
+									<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+
+									<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="profile">
+								<div class="row row-padded">
+									<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+										Popover on left
+									</button>
+
+									<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+										Popover on top
+									</button>
+
+									<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus.">
+										Popover on bottom
+									</button>
+
+									<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+										Popover on right
+									</button>
+									<a tabindex="0" class="btn btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-padded">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img class="img img-responsive" src="http://cdn.pcwallart.com/images/spring-nature-wallpaper-wallpaper-2.jpg">
+								<div class="carousel-caption">
+									Appellat fugiat vidisse ullamco, se noster aute noster officia.
+								</div>
+							</div>
+							<div class="item">
+								<img class="img img-responsive" src="http://img.wallpaperfolder.com/f/4429F452B6BB/23-april-2014-am-2560-1440-summer-nature.jpg">
+								<div class="carousel-caption">
+									In ipsum ingeniis qui anim litteris nam transferrem.
+								</div>
+							</div>
+							<div class="item">
+								<img class="img img-responsive" src="http://miriadna.com/desctopwalls/images/max/When-we-were-in-the-autumn.jpg">
+								<div class="carousel-caption">
+									Admodum ipsum appellat, ubi aliquip te vidisse.
+								</div>
+							</div>
+							<div class="item">
+								<img class="img img-responsive" src="https://s-media-cache-ak0.pinimg.com/originals/73/8c/a2/738ca24c8a01b67e498be3f7eaa93872.jpg">
+								<div class="carousel-caption">
+									Non nisi familiaritatem ne ita enim quis eu excepteur.
+								</div>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		
+			<nav aria-label="Page navigation">
+				<ul class="pagination">
+					<li>
+						<a href="#" aria-label="Previous">
+							<span aria-hidden="true">&laquo;</span>
+						</a>
+					</li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li>
+						<a href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="myModalLarge">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Modal title</h4>
+					</div>
+					<div class="modal-body">
+						<p>ex aliqua dolor in veniam tractavissent ubi possumus commodo quorum quamquam 
+							velit singulis an ad si firmissimum cernantur singulis aut an do illum amet 
+							occaecat o minim nescius exercitation comprehenderit</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="myModalRegular">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Modal title</h4>
+					</div>
+					<div class="modal-body">
+						<p>ex aliqua dolor in veniam tractavissent ubi possumus commodo quorum quamquam 
+							velit singulis an ad si firmissimum cernantur singulis aut an do illum amet 
+							occaecat o minim nescius exercitation comprehenderit</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="myModalSmall">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Modal title</h4>
+					</div>
+					<div class="modal-body">
+						<p>ex aliqua dolor in veniam tractavissent ubi possumus commodo quorum quamquam 
+							velit singulis an ad si firmissimum cernantur singulis aut an do illum amet 
+							occaecat o minim nescius exercitation comprehenderit</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip()
+			});
+			$(function () {
+				$('[data-toggle="popover"]').popover()
+			});
+		</script>
+	</body>
+</html>
+
+
